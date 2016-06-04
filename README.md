@@ -36,7 +36,8 @@ tdi_fw is the famous open source personal firewall using TDI, and serves as the 
 
 2. In SRVINSTW:  
 
-        install ${driver_path}/m_quick_filter.sys | hook.sys;
+        install ${driver_path}/m_quick_filter.sys | hook.sys as ${whoami};
+        > net start ${whoami};
 
 3. Logging in DbgView;
 
