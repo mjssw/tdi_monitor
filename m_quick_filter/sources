@@ -1,0 +1,13 @@
+TARGETNAME=m_quick_filter
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+DRIVERTYPE=DRIVER
+SOURCES=m_quick_filter.c
+
+LIB_POST_FIX=WNET
+
+
+TARGETLIBS= $(DDK_LIB_PATH)\tdi.lib \
+					..\tdifw-1.4.4\src\drc\tdi_fw_$(DDKBUILDENV)_$(LIB_POST_FIX).lib
+						
+
