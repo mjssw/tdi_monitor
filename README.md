@@ -1,7 +1,8 @@
 # tdi_monitor
 
-Monitoring Network Behaviors by Transport Driver Interface (TDI)
--------
+*Monitoring Network Behaviors by Transport Driver Interface (TDI)*
+
+---
 
 This is a course project for ***Windows Security (IS405)*** in SJTU, 2016 spring semester.
 
